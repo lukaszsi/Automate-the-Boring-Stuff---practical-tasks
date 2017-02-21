@@ -6,3 +6,5 @@ Here I will store examples of answers to practical tasks in mentioned online&boo
 that these answers are up-to-date with the skill required at certain point of tutorial, so, of course, it 
 might be a lot better way to solve it and the code itself sometimes is against Python style guide. 
 I hope you will find it handy, as much as I hope you will try to solve the task before skipping in here! Have fun.
+
+As I started to learn Java, I also manage to do some of the practical tasks in this language.
