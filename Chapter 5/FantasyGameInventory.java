@@ -22,7 +22,6 @@ public class FantasyGameInventory
         System.out.println("Total number of items: " + item_total); 
     }
     public static Map<String, Integer> addToInventory(Map<String, Integer> inventory, String[] loot) {
-        //Should I create new Map obj? Clone it or work on inventory variable?
         for (String element : loot){
             if (inventory.containsKey(element)){
                 int n = inventory.get(element);
