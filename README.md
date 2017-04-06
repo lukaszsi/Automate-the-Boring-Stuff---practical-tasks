@@ -7,6 +7,9 @@ that these answers are up-to-date with the skill required at certain point of tu
 might be a lot better way to solve it and the code itself sometimes is against Python style guide. 
 I hope you will find it handy, as much as I hope you will try to solve the task before skipping in here! Have fun.
 
+Important! Scripts with "before_reafctoring"in names are few months old (from the time when I was doing this tutorial) and 
+must be redone before we could call it a 'bearable code' ;)
+
 As I have started to learn Java, so I rewrote some of this practical tasks in this language.
 
 Table of Contents
