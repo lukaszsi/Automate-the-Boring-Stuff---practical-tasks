@@ -11,22 +11,22 @@ As I have started to learn Java, so I rewrote some of this practical tasks in th
 
 Table of Contents
 
-Chapter 0 – Introduction
-Chapter 1 – Python Basics
-Chapter 2 – Flow Control
-Chapter 3 – Functions
-Chapter 4 – Lists
-Chapter 5 – Dictionaries and Structuring Data
-Chapter 6 – Manipulating Strings
-Chapter 7 – Pattern Matching with Regular Expressions
-Chapter 8 – Reading and Writing Files
-Chapter 9 – Organizing Files
-Chapter 10 – Debugging
-Chapter 11 – Web Scraping
-Chapter 12 – Working with Excel Spreadsheets
-Chapter 13 – Working with PDF and Word Documents
-Chapter 14 – Working with CSV Files and JSON Data
-Chapter 15 – Keeping Time, Scheduling Tasks, and Launching Programs
-Chapter 16 – Sending Email and Text Messages
-Chapter 17 – Manipulating Images
-Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation
+<br>Chapter 0 – Introduction
+<br>Chapter 1 – Python Basics
+<br>Chapter 2 – Flow Control
+<br>Chapter 3 – Functions
+<br>Chapter 4 – Lists
+<br>Chapter 5 – Dictionaries and Structuring Data
+<br>Chapter 6 – Manipulating Strings
+<br>Chapter 7 – Pattern Matching with Regular Expressions
+<br>Chapter 8 – Reading and Writing Files
+<br>Chapter 9 – Organizing Files
+<br>Chapter 10 – Debugging
+<br>Chapter 11 – Web Scraping
+<br>Chapter 12 – Working with Excel Spreadsheets
+<br>Chapter 13 – Working with PDF and Word Documents
+<br>Chapter 14 – Working with CSV Files and JSON Data
+<br>Chapter 15 – Keeping Time, Scheduling Tasks, and Launching Programs
+<br>Chapter 16 – Sending Email and Text Messages
+<br>Chapter 17 – Manipulating Images
+<br>Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation
