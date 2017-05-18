@@ -7,11 +7,15 @@ import bs4
 import os
 
 webPage = input('What address should I check? ')
+if not webPage.startswith('http://'):
+    webPage = 'http://' + webPage
+    
 res = requests.get(webPage)
 res.raise_for_status()
 soupObj = bs4.BeautifulSoup(res.text, 'lxml')
 elements = soupObj.select('a[href]')
 print('Amount of elements: ' + str(len(elements)))
+
 for count, element in enumerate(elements):
     if element.get('href').startswith('http'):
         checkElem = element.get('href')
@@ -19,11 +23,14 @@ for count, element in enumerate(elements):
         checkElem = os.path.dirname(webPage) + '/' + element.get('href')
     try:
         elemRes = requests.get(checkElem)
+    # Different errors, general 'except' used.
     except:
         print('This element can not be checked! ' + str(element.get('href')))
         continue
+        
     if elemRes.status_code == 404:
         print(checkElem + ' has 404 status code!')
     else:
         continue
+        
 print('All elements checked.')
