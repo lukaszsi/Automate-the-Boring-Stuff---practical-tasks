@@ -1,5 +1,6 @@
 #! python3
-# sendMail.py - programm for automatically sending e-mails
+# sendMail.py - programm that is sending e-mails automatically
+
 import sys
 import time
 from selenium import webdriver
