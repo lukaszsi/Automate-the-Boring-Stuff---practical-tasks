@@ -1,7 +1,9 @@
 #! python3
 # imageSiteDownloader.py - downloads all searched photos from website
 
-import time, os, requests
+import time
+import os
+import requests
 from selenium import webdriver
 
 os.chdir('C://Python')
