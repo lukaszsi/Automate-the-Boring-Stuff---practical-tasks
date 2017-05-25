@@ -1,7 +1,9 @@
 #! python3
 # imageSiteDownloader2.py - downloads all searched photos from website
 
-import os, requests, bs4
+import os
+import requests
+import bs4
 
 os.chdir('C://Python')
 os.makedirs('Cats', exist_ok=True)
