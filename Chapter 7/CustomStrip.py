@@ -5,8 +5,8 @@ from beginning and end of the given string.'''
 import re
 
 def customStrip(string, toRemove='\s'):
-    wordbeginRegex = re.compile(r'^['+ toRemove+']+')
-    string = wordbeginRegex.sub('', string)
-    wordendRegex = re.compile(r'['+ toRemove+']+$')
-    string = wordendRegex.sub('', string)
+    beginRegex = re.compile(r'^['+ toRemove+']+')
+    string = beginRegex.sub('', string)
+    endRegex = re.compile(r'['+ toRemove+']+$')
+    string = endRegex.sub('', string)
     return string
